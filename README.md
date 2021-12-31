@@ -3,7 +3,7 @@
 
   &#xa0;
 
-  <!-- <a href="https://3drendering.netlify.app">Demo</a> -->
+  <a href="https://arthur-matias.github.io/3d-rendering/">Demo</a>
 </div>
 
 <h1 align="center">3d Rendering</h1>
