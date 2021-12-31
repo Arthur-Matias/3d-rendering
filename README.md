@@ -1,5 +1,5 @@
 <div align="center" id="top"> 
-  <img src="src\assets\3d-cube-rendering.gif" alt="3d Rendering" />
+  <img src="./assets/3d-cube-rendering.gif" alt="3d Rendering" />
 
   &#xa0;
 
