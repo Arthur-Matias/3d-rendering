@@ -1,4 +1,5 @@
-import { cos, distance, Matrix, matrix, multiply, sin } from "mathjs";
+import "./style.css"
+import { cos, matrix, multiply, sin } from "mathjs";
 import p5 from "p5";
 
 
@@ -67,7 +68,7 @@ var sketch = (p: p5) => {
             ]
 
             let projected2d = matrix(multiply(projection, rotated)).toArray() as number[]
-            let scaled = scale(projected2d, 100).toArray() as number[]
+            let scaled = scale(projected2d, (p.windowWidth >= p.windowHeight? p.windowHeight/2 : p.windowWidth/2)).toArray() as number[]
             // console.log(angle)
             projectedPoints.push(scaled)
         }
